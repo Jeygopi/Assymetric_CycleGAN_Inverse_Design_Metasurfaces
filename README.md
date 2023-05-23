@@ -15,3 +15,7 @@ In this case, we implement the solution mainly using the tensorflow framework. D
 ## Training Process
 
 The CycleGAN is constructed through both one and two dimensional convolutional blocks, and the output can be displayed along the original data. 
+
+## Results
+
+<img width="873" alt="Screen Shot 2023-05-23 at 2 01 10 pm" src="https://github.com/Jeygopi/Assymetric_CycleGAN_Inverse_Design_Metasurfaces/assets/69072732/1c13265d-4eb7-4b08-a656-78576931fb87">
