@@ -14,7 +14,7 @@ In this case, we implement the solution mainly using the tensorflow framework. D
 
 ## Training Process
 
-The CycleGAN is constructed through both one and two dimensional convolutional blocks, and the output can be displayed along the original data. 
+The CycleGAN is constructed through both one and two dimensional convolutional blocks, and the output can be displayed along the original data. The training process may not converge, and is extremely unstable. Depending on your dataset you may need to spend a significant time tuning hyperparameters to ensure the model does not converge too fast or too slow. 
 
 ## Results
 
@@ -22,5 +22,16 @@ The following shows the noise improvement as a function of FID Score:
 
 <img width="873" alt="Screen Shot 2023-05-23 at 2 01 10 pm" src="https://github.com/Jeygopi/Assymetric_CycleGAN_Inverse_Design_Metasurfaces/assets/69072732/1c13265d-4eb7-4b08-a656-78576931fb87">
 
-The following are some example generated spectrums compared to their input result:
+The following are some example generated spectrums compared to their input result. The Forward Calculation was done through FDTD software to obtain an accurate numerical result:
+
 <img width="877" alt="Screen Shot 2023-05-23 at 2 12 14 pm" src="https://github.com/Jeygopi/Assymetric_CycleGAN_Inverse_Design_Metasurfaces/assets/69072732/df600090-c7bc-4766-90e1-0d17addc886b">
+
+## Notes
+
+### Generalization
+
+- The above code can be used for any two way transformation between datasets where one side is an image and the other side is some sort of time series data. 
+
+- It is possible to convert the images to grayscale beforehand for faster processing, we noticed for this particular application this provided no improvement in terms of the final result.
+
+- Changing input dimensions is something that would require significant work. We are currently working on an improved system regarding this. 
