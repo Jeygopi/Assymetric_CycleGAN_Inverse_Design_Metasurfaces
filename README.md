@@ -40,3 +40,5 @@ The following are some example generated spectrums compared to their input resul
 - It is possible to convert the images to grayscale beforehand for faster processing, we noticed for this particular application this provided no improvement in terms of the final result.
 
 - Changing input dimensions is something that would require significant work. We are currently working on an improved system regarding this. 
+
+- The code will be cleaned up as the versions are improved. At the moment there are a lot of lines for error checking, and you may find this useful for your own work. 
