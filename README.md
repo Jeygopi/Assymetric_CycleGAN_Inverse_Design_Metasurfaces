@@ -18,4 +18,9 @@ The CycleGAN is constructed through both one and two dimensional convolutional b
 
 ## Results
 
+The following shows the noise improvement as a function of FID Score:
+
 <img width="873" alt="Screen Shot 2023-05-23 at 2 01 10 pm" src="https://github.com/Jeygopi/Assymetric_CycleGAN_Inverse_Design_Metasurfaces/assets/69072732/1c13265d-4eb7-4b08-a656-78576931fb87">
+
+The following are some example generated spectrums compared to their input result:
+<img width="877" alt="Screen Shot 2023-05-23 at 2 12 14 pm" src="https://github.com/Jeygopi/Assymetric_CycleGAN_Inverse_Design_Metasurfaces/assets/69072732/df600090-c7bc-4766-90e1-0d17addc886b">
